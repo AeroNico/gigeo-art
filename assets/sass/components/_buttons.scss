@@ -1,0 +1,18 @@
+.btn{
+    font-family: $montserrat;
+    font-weight: $monlight;
+    border-radius: 0;
+    border:none;
+    &-info {
+        background-color:$sky-blue;
+        &:hover{
+            background-color:#71B7BC;
+        }
+    }
+    &-danger {
+        background-color: $persimmon;
+        &:hover{
+            background-color:#CE4E4E;
+        }
+    }
+}
